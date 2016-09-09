@@ -1,0 +1,200 @@
+html{
+  align-content: center;
+  position: relative;
+}
+
+
+
+body{
+  align-content: center;
+  text-align: center;
+}
+
+#menus{
+
+
+/*align-content:center;*/
+margin:auto;
+width:90%;  
+background-color:#A9A9A9;
+
+}
+
+#menu1{
+
+  border:5px solid black;
+  position: relative;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 30%;
+  height:200px;
+  float:left;
+  margin:auto;
+  padding: 5px;
+  background-color:#A9A9A9;
+  overflow:hidden;
+
+}
+
+
+#tag1{
+border: 2px solid black;
+position:absolute;
+top:0px;
+right:0px;
+width:40%;
+background-color:#E9967A;
+
+
+
+
+}
+
+#menu2{
+  position: relative;
+  border:5px solid black;
+  width: 30%;
+  height:200px;
+  float:left;
+padding: 5px;  
+  margin:auto;
+  margin-left: 5px;
+background-color:#A9A9A9;
+overflow:hidden;
+}
+
+#tag2{
+border: 2px solid black;
+position:absolute;
+top:0px;
+right:0px;
+width:40%;
+background-color: Red;
+color: white;
+
+
+}
+
+
+
+#menu3{
+  position:relative;
+  border:5px solid black;
+  width: 30%;
+  height:200px;
+/*  float:right;*/
+float:left;
+  margin:auto;
+  margin-left: 5px;
+padding: 5px;
+background-color:#A9A9A9;
+overflow:hidden;
+}
+
+
+#tag3{
+border: 2px solid black;
+position:absolute;
+top:0px;
+right:0px;
+width:40%;
+background-color: yellow;
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+#menus{
+
+
+/*align-content:center;*/
+margin:auto;
+width:90%;  
+
+}
+
+
+#menu3{
+
+  border:5px solid black;
+  width: 65%;
+  height:200px;
+/*  float:right;*/
+float:left;
+  margin:auto;
+  margin-top: 5px;
+padding: 5px;
+position: relative;
+}
+
+}
+
+
+@media (min-width: 200px ) and (max-width: 767px) {
+
+
+#menus{
+
+margin:auto;
+width:90%;  
+position: relative;
+
+}
+
+
+#menu1{
+
+  border:5px solid black;
+  position: relative;
+  background-color: white;
+  width: 60%;
+  height:200px;
+  margin:auto;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color:#A9A9A9;
+
+}
+
+
+#tag1{
+border: 2px solid black;
+position:absolute;
+top:0px;
+right:0px;
+width:40%;
+
+}
+
+#menu2{
+
+  border:5px solid black;
+  width: 60%;
+  height:200px;
+  padding: 5px;  
+  margin:auto;
+margin-bottom: 5px;
+margin-top: 5px;
+background-color:#A9A9A9;
+
+
+}
+
+#menu3{
+
+  border:5px solid black;
+  width: 60%;
+  height:200px;
+/*  float:right;*/
+  margin:auto;
+padding: 5px;
+background-color:#A9A9A9;
+margin-top:5px;
+}
+  
+
+  }
